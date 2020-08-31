@@ -107,6 +107,15 @@ Endpoint: `/player/{uuid}` or `/player/{username}`
 | player\_kill\_count      | string  | Total PVP kills                           |
 | mob\_kill\_count         | string  | Total mob kills                           |
 
+### `nicknames`
+
+| Key      | Type   | Description                        |
+|----------|--------|------------------------------------|
+| nickname | string | Recorded nickname                  |
+| server   | string | Server where nickname was recorded |
+| date     | string | Recorded date of nickname          |
+
+
 ###  `servers`
 
 | Key                      | Type    | Description                                  |
