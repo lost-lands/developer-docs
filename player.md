@@ -1,6 +1,6 @@
 ---
 title: Player
-parent: UI Components
+parent: API v1
 ---
 
 # Player

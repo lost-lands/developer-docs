@@ -1,5 +1,5 @@
 ---
-title: Home
+title: API v1
 has_children: true
 ---
 # API v1
