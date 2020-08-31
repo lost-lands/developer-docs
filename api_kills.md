@@ -15,7 +15,7 @@ Valid server names: `hub, anarchy`
 
 # Response
 
-## numbers
+## `numbers`
 
 | Key                   | Type   | Description                        |
 |-----------------------|--------|------------------------------------|
