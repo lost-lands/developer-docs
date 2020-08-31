@@ -16,9 +16,12 @@ Valid server names: `hub, anarchy`
 ## Response
 
 ### "numbers"
-| Key         | Value                                 |
-|-------------|---------------------------------------|
-| tps_7d      | Average TPS over the last 7 days      |
-| entities_7d | Average entities over the last 7 days |
-|             |                                       |
+
+| Key      | Example Value | Description               |
+|----------|---------------|---------------------------|
+| tps\_24h | 20\.00        | Average TPS over 24 hours |
+| tps\_7d  | 20\.00        | Average TPS over 7 days   |
+| tps\_30d | 20\.00        | Average TPS over 30d      |
+
+
 
