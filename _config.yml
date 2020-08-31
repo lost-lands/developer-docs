@@ -1,0 +1,8 @@
+title: Lost Lands Developer Documentation
+email: admin@lostlands.co
+description: >-
+  Official developer documentation for Lost Lands. Currently this documenation highlights the usage and implementation of Lost Lands API v1
+baseurl: "/"
+url: "https://developer.lostlands.co"
+remote_theme: pmarsceill/just-the-docs
+plugins:
