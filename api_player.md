@@ -16,8 +16,16 @@ Endpoint: `/player/{uuid}` or `/player/{username}`
 
 | Key    | Type   | Description                                     |
 |--------|--------|-------------------------------------------------|
-| date   | string | Date in `Day, HH:MM:SS` format                 |
+| date   | string | Date in  `Day, HH:MM:SS` format                 |
 | weapon | string | Name of Weapon                                  |
 | victim | string | Person Killed \(returns requested player name\) |
 | killer | string | Killer \(returns who killed requested player\)  |
+
+### `player_kills`
+| Key    | Type   | Description                                           |
+|--------|--------|-------------------------------------------------------|
+| date   | string | Date in  `Day, HH:MM:SS` format                       |
+| weapon | string | Name of Weapon                                        |
+| victim | string | Person Killed \(returns who killed requested player\) |
+| killer | string | Killer \(returns requested player name\)              |
 
