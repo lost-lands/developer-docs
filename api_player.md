@@ -22,6 +22,7 @@ Endpoint: `/player/{uuid}` or `/player/{username}`
 | killer | string | Killer \(returns who killed requested player\)  |
 
 ### `player_kills`
+
 | Key    | Type   | Description                                           |
 |--------|--------|-------------------------------------------------------|
 | date   | string | Date in  `Day, HH:MM:SS` format                       |
