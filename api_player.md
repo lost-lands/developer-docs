@@ -58,10 +58,10 @@ Endpoint: `/player/{uuid}` or `/player/{username}`
 | Key                      | Type    | Description                               |
 |--------------------------|---------|-------------------------------------------|
 | banned                   | boolean | Whether or not the user is banned         |
-| kick\_count              | number  | Total kicks (Includes AFK kick)         |
-| last\_seen               | string  | Last seen in `Day, HH:MM:SS` format      |
+| kick\_count              | number  | Total kicks (Includes AFK kick)           |
+| last\_seen               | string  | Last seen in `Day, HH:MM:SS` format       |
 | favorite\_server         | string  | Server the player spends the most time on |
-| registered               | string  | First seen in `Day, HH:MM:SS` format     |
+| registered               | string  | First seen in `Day, HH:MM:SS` format      |
 | average\_ping            | string  | Average ping                              |
 | best\_ping               | string  | Best ping                                 |
 | worst\_ping              | string  | Worst Ping                                |
@@ -75,5 +75,23 @@ Endpoint: `/player/{uuid}` or `/player/{username}`
 | active\_playtime         | string  | Total active playtime                     |
 | player\_kill\_count      | string  | Total PVP kills                           |
 | mob\_kill\_count         | string  | Total mob kills                           |
+
+###  `servers`
+
+| Key                      | Type    | Description                                  |
+|--------------------------|---------|----------------------------------------------|
+| server\_name             | string  | Name of server                               |
+| last\_seen               | string  | Last seen date in  `Day, HH:MM:SS` format    |
+| registered               | string  | First seen date in  `Day, HH:MM:SS` format   |
+| playtime                 | string  | Total playtime                               |
+| afk\_time                | string  | Total AFK time                               |
+| session\_count           | number  | Total number of sessions                     |
+| session\_median          | string  | Median length of sessions                    |
+| longest\_session\_length | string  | Longest session                              |
+| mob\_kills               | number  | Number of mob kills                          |
+| player\_kills            | number  | Number of player (PVP) kills                 |
+| deaths                   | number  | Number of deaths                             |
+| banned                   | boolean | Whether or not the player is banned          |
+
 
 
