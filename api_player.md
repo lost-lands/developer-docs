@@ -12,6 +12,37 @@ Returns player data for the requested player UUID or username. UUIDs must be in 
 Endpoint: `/player/{uuid}` or `/player/{username}`
 
 ## Response
+
+### `kill_data`
+
+| Key                   | Type   | Description                                          |
+|-----------------------|--------|------------------------------------------------------|
+| deaths\_30d           | number | Total deaths over the past 30 days                   |
+| deaths\_7d            | number | Total deaths over the past 7 days                    |
+| deaths\_total         | number | All\-time total deaths                               |
+| mob\_deaths\_30d      | number | Total deaths caused by mobs over the past 30 days    |
+| mob\_deaths\_7d       | number | Total deaths caused by mobs over the past 7 days     |
+| mob\_deaths\_total    | number | All\-time total deaths caused by mobs                |
+| mob\_kdr\_30d         | string | KDR with mobs over the past 30 days                  |
+| mob\_kdr\_7d          | string | KDR with mobs over the past 7 days                   |
+| mob\_kdr\_total       | string | All\-time KDR with mobs                              |
+| mob\_kills\_30d       | number | Kills on mobs over the past 30 days                  |
+| mob\_kills\_7d        | number | Kills on mobs over the past 7 days                   |
+| mob\_kills\_total     | number | All\-time kills on mobs                              |
+| player\_deaths\_30d   | number | Total deaths caused by players over the past 30 days |
+| player\_deaths\_7d    | number | Total deaths caused by players over the past 7 days  |
+| player\_deaths\_total | number | All\-time total deaths caused by players             |
+| player\_kdr\_30d      | string | KDR with other players over the past 30 days         |
+| player\_kdr\_7d       | string | KDR with other players over the past 7 days          |
+| player\_kdr\_total    | number | All\-time KDR with other players                     |
+| player\_kills\_30d    | number | Total player \(PVP\) kills over the past 30 days     |
+| player\_kills\_7d     | number | Total player \(PVP\) kills over the past 7 days      |
+| player\_kills\_total  | number | All\-time total player \(PVP\) kills                 |
+| weapon\_1st           | string | Most used weapon                                     |
+| weapon\_2nd           | string | 2nd most used weapon                                 |
+| weapon\_3rd           | string | 3rd most used weapon                                 |
+
+
 ### `player_deaths`
 
 | Key    | Type   | Description                                     |
