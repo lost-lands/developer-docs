@@ -52,3 +52,28 @@ Endpoint: `/player/{uuid}` or `/player/{username}`
 | mob\_kill\_count\_30d         | number | Number of mob kills over the past 30 days    |
 | death\_count\_7d              | number | Total deaths over the past 7 days            |
 | death\_count\_30d             | number | Total deaths over the past 30 days           |
+
+### `info`
+
+| Key                      | Type    | Description                               |
+|--------------------------|---------|-------------------------------------------|
+| banned                   | boolean | Whether or not the user is banned         |
+| kick\_count              | number  | Total kicks (Includes AFK kick)         |
+| last\_seen               | string  | Last seen in `Day, HH:MM:SS` format      |
+| favorite\_server         | string  | Server the player spends the most time on |
+| registered               | string  | First seen in `Day, HH:MM:SS` format     |
+| average\_ping            | string  | Average ping                              |
+| best\_ping               | string  | Best ping                                 |
+| worst\_ping              | string  | Worst Ping                                |
+| activity\_index          | string  | Calculated activity index                 |
+| activity\_index\_group   | string  | Group calculated based on activity index  |
+| session\_count           | number  | Total number of sessions                  |
+| session\_median          | string  | Median number of sessions                 |
+| longest\_session\_length | string  | Longest recorded session                  |
+| playtime                 | string  | Total playtime                            |
+| afk\_time                | string  | Total AFK time                            |
+| active\_playtime         | string  | Total active playtime                     |
+| player\_kill\_count      | string  | Total PVP kills                           |
+| mob\_kill\_count         | string  | Total mob kills                           |
+
+
