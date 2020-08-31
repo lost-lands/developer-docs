@@ -2,7 +2,7 @@
 title: Home
 nav_order: 1
 ---
-# Developer Documentation
+# Lost Lands Developer Documentation
 
 Welcome to the developer documentation for Lost Lands. Currently documented is API v1 which supports requesting player and server data. 
 <br />
