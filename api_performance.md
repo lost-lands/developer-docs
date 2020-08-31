@@ -13,3 +13,12 @@ Endpoint: `/performance/{server}`
 <br />
 Valid server names: `hub, anarchy`
 
+## Response
+
+### "numbers"
+| Key         | Value                                 |
+|-------------|---------------------------------------|
+| tps_7d      | Average TPS over the last 7 days      |
+| entities_7d | Average entities over the last 7 days |
+|             |                                       |
+
