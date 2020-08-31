@@ -15,6 +15,14 @@ Valid server names: `hub, anarchy`
 
 ## Response
 
+### `insights
+
+| Key                | Type   | Description                         |
+|--------------------|--------|-------------------------------------|
+| low\_tps\_players  | string | Players online during last TPS drop |
+| low\_tps\_chunks   | string | Chunks loaded during last TPS drop  |
+| low\_tps\_entities | string | Total entities during last TPS drop |
+
 ### `numbers`
 
 | Key                   | Type   | Description                          |
