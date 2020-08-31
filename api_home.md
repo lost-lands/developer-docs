@@ -2,7 +2,7 @@
 title: API v1
 has_children: true
 nav_order: 2
-permalink: /api
+permalink: /api/v1/
 ---
 # API v1
 
