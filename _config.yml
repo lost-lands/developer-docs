@@ -5,4 +5,12 @@ description: >-
 baseurl: "/"
 url: "https://developer.lostlands.co"
 remote_theme: pmarsceill/just-the-docs
-plugins:
+
+aux_links:
+  "Lost Lands":
+    - "https://lostlands.co/"
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+footer_content: "Copyright &copy; 2020 Lost Lands. Official API written by Kore."
