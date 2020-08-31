@@ -2,6 +2,7 @@
 title: Performance
 parent: API v1
 nav_order: 3
+permalink: /api/v1/performance
 ---
 
 # Performance

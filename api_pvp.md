@@ -2,6 +2,7 @@
 title: PVP
 parent: API v1
 nav_order: 2
+permalink: /api/v1/pvp
 ---
 
 # PVP

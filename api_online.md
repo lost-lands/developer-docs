@@ -2,6 +2,7 @@
 title: Online
 parent: API v1
 nav_order: 5
+permalink: /api/v1/online
 ---
 
 # Online (Server Stats)
