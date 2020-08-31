@@ -40,8 +40,8 @@ Endpoint: `/player/{uuid}` or `/player/{username}`
 | average\_session\_length\_30d | string | Average session length over the past 30 days |
 | median\_session\_length\_7d   | string | Median session length over the past 7 days   |
 | median\_session\_length\_7d   | string | Median session length over the past 30 days  |
-| playtime\_7d                  | string | Total Playtime over the past 7 days          |
-| playtime\_30d                 | string | Total Playtime over the past 30 days         |
+| playtime\_7d                  | string | Total playtime over the past 7 days          |
+| playtime\_30d                 | string | Total playtime over the past 30 days         |
 | active\_playtime\_7d          | string | Active playtime over the past 7 days         |
 | active\_playtime\_30d         | string | Active playtime over the past 30 days        |
 | afk\_time\_7d                 | string | AFK time over the past 7 days                |
