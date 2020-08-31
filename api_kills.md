@@ -7,7 +7,7 @@ permalink: /api/v1/kills
 
 # Kills
 
-Returns cumulative player and mob deaths for the requested server.
+Returns cumulative player and mob deaths, player kills and mob kills, and KDRs for the requested server.
 
 Endpoint: `/kills/{server}`
 <br />
