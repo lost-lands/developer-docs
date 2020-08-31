@@ -2,6 +2,7 @@
 title: Kills
 parent: API v1
 nav_order: 4
+permalink: /api/v1/kills
 ---
 
 # Kills
