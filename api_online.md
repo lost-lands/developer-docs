@@ -17,6 +17,7 @@ Valid server names: `hub, anarchy`
 
 ### trends
 ### `new_players_30d_trend` `new_players_30d_avg_trend` `unique_players_30d_trend` `unique_players_30d_avg_trend` `sessions_30d_trend` `sessions_length_30d_trend` `playtime_30d_trend` `playtime_30d_avg_trend`
+{: .lh-default }
 
 | Key       | Type    | Description                                                 |
 |-----------|---------|-------------------------------------------------------------|
