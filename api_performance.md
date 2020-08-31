@@ -15,7 +15,7 @@ Valid server names: `hub, anarchy`
 
 ## Response
 
-### `insights
+### `insights`
 
 | Key                | Type   | Description                         |
 |--------------------|--------|-------------------------------------|
