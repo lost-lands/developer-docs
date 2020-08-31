@@ -17,11 +17,24 @@ Valid server names: `hub, anarchy`
 
 ### "numbers"
 
-| Key      | Example Value | Description               |
-|----------|---------------|---------------------------|
-| tps\_24h | 20\.00        | Average TPS over 24 hours |
-| tps\_7d  | 20\.00        | Average TPS over 7 days   |
-| tps\_30d | 20\.00        | Average TPS over 30d      |
+| Key                   | Type   | Description                          |
+|-----------------------|--------|--------------------------------------|
+| tps\_24h              | number | Average TPS over 24 hours            |
+| tps\_7d               | number | Average TPS over 7 days              |
+| tps\_30d              | number | Average TPS over 30 days             |
+| low\_tps\_spikes\_24h | number | Average low TPS spikes over 24 hours |
+| low\_tps\_spikes\_7d  | number | Average low TPS spikes over 7 days   |
+| low\_tps\_spikes\_30d | number | Average low TPS spikes over 30 days  |
+| entities\_24h         | number | Average entities over 24 hours       |
+| entities\_7d          | number | Average entities over 7 days         |
+| entities\_30d         | number | Average entities over 30 days        |
+| chunks\_24h           | number | Average loaded chunks over 24 hours  |
+| chunks\_7d            | number | Average loaded chunks over 7 days    |
+| chunks\_30d           | number | Average loaded chunks over 30 days   |
+| server\_downtime\_24h | string | Total server downtime over 24 hours  |
+| server\_downtime\_7d  | string | Total server downtime over 7 days    |
+| server\_downtime\_30d | string | Total server downtime over 30 days   |
+
 
 
 
