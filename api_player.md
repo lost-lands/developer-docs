@@ -9,7 +9,22 @@ permalink: /api/v1/player
 
 Returns player data for the requested player UUID or username. UUIDs must be in expanded format.
 
-Endpoint: `/player/{uuid}` or `/player/{username}`
+#### HTTP 
+`/player/{uuid}` or `/player/{username}`
+
+#### NodeJS
+```javascript
+//player can be UUID or username, here we've chosen UUID
+const uuid = "0713189b-ba9f-4b30-b772-d17e7bd402f9";
+v1.player(uuid, function(err, player) {
+    if (err) {
+        console.error(err);
+    } else {
+        //player is an array of all documented player data
+        console.log(player);
+    }
+});
+```
 
 ## Response
 
