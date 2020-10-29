@@ -11,7 +11,7 @@ Deprecated
 --->
 
 ### HTTP Endpoint
-`https://api.lostlands.co/`
+`https://api.lostlands.co/v1/`
 
 ### NodeJS Package
 `npm i node-lostlands-api`
