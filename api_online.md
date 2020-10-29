@@ -22,7 +22,7 @@ v1.online(server, function(err, data) {
         console.error(err);
     } else {
         //data is an array of all documented statistics for the requested server
-        console.log(kills);
+        console.log(data);
     }
 });
 ```
