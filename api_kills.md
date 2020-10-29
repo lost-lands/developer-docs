@@ -22,7 +22,7 @@ v1.kills(server, function(err, data) {
         console.error(err);
     } else {
         //data is an array of all documented kills data for the requested server
-        console.log(kills);
+        console.log(data);
     }
 });
 ```
