@@ -9,9 +9,23 @@ permalink: /api/v1/online
 
 Returns server statistics including TPS, sessions, play time, new/unique players, downtime, and averages of the data.
 
-Endpoint: `/online/{server}`
-<br />
-Valid server names: `hub, anarchy`
+#### HTTP
+`/online/{server}`
+#### Valid Servers
+Valid server names: `anarchy` `crystalpvp`
+
+#### NodeJS
+```javascript
+const server = "anarchy";
+v1.online(server, function(err, data) {
+    if (err) {
+        console.error(err);
+    } else {
+        //data is an array of all documented statistics for the requested server
+        console.log(kills);
+    }
+});
+```
 
 ## Response
 

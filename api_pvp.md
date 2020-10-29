@@ -9,9 +9,23 @@ permalink: /api/v1/pvp
 
 Returns the last 100 PVP kills on the requested server.
 
-Endpoint: `/pvp/{server}`
-<br />
-Valid server names: `hub, anarchy`
+#### HTTP
+`/pvp/{server}`
+#### Valid Servers
+Valid server names: `anarchy` `crystalpvp`
+
+#### NodeJS
+```javascript
+const server = "anarchy";
+v1.pvp(server, function(err, kills) {
+    if (err) {
+        console.error(err);
+    } else {
+        //kills is an array of all documented player_kills data
+        console.log(kills);
+    }
+});
+```
 
 ## Response
 

@@ -9,9 +9,23 @@ permalink: /api/v1/kills
 
 Returns cumulative player and mob deaths, player kills and mob kills, and KDRs for the requested server.
 
-Endpoint: `/kills/{server}`
-<br />
-Valid server names: `hub, anarchy`
+#### HTTP
+`/performance/{server}`
+#### Valid Servers
+Valid server names: `anarchy` `crystalpvp`
+
+#### NodeJS
+```javascript
+const server = "anarchy";
+v1.kills(server, function(err, data) {
+    if (err) {
+        console.error(err);
+    } else {
+        //data is an array of all documented kills data for the requested server
+        console.log(kills);
+    }
+});
+```
 
 # Response
 
