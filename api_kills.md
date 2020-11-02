@@ -10,7 +10,7 @@ permalink: /api/v1/kills
 Returns cumulative player and mob deaths, player kills and mob kills, and KDRs for the requested server.
 
 #### HTTP
-`/performance/{server}`
+`/kills/{server}`
 #### Valid Servers
 Valid server names: `anarchy` `crystalpvp`
 
