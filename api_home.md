@@ -20,6 +20,13 @@ Deprecated
 const lostlandsAPI = require("node-lostlands-api");
 const v1 = new lostlandsAPI.v1();
 ```
+### JavaScript Library
+```html
+<script src="https://cdn.jsdelivr.net/gh/lost-lands/javascript-lostlands-api@1.1/api.js"></script>
+```
+```javascript
+const v1 = new lostlandsAPI.v1();
+```
 <!---
 ### API v1 Deprecation
 API v1 has been official deprecated as of September 2020. Some requests may not work properly, or at all, and no support will be provided. API v2 will be out soon which will support more requests and return more detailed information. 
