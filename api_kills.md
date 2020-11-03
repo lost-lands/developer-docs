@@ -14,7 +14,7 @@ Returns cumulative player and mob deaths, player kills and mob kills, and KDRs f
 #### Valid Servers
 Valid server names: `anarchy` `crystalpvp`
 
-#### NodeJS
+#### NodeJS / JavaScript
 ```javascript
 const server = "anarchy";
 v1.kills(server, function(err, data) {

@@ -12,7 +12,7 @@ Returns player data for the requested player UUID or username. UUIDs must be in 
 #### HTTP 
 `/player/{uuid}` or `/player/{username}`
 
-#### NodeJS
+#### NodeJS / JavaScript
 ```javascript
 //player can be UUID or username, here we've chosen UUID
 const uuid = "0713189b-ba9f-4b30-b772-d17e7bd402f9";

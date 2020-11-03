@@ -14,7 +14,7 @@ Returns server performance for the select server
 #### Valid Servers
 Valid server names: `anarchy` `crystalpvp`
 
-#### NodeJS
+#### NodeJS / JavaScript
 ```javascript
 const server = "anarchy";
 v1.performance(server, function(err, data) {

@@ -14,7 +14,7 @@ Returns server statistics including TPS, sessions, play time, new/unique players
 #### Valid Servers
 Valid server names: `anarchy` `crystalpvp`
 
-#### NodeJS
+#### NodeJS / JavaScript
 ```javascript
 const server = "anarchy";
 v1.online(server, function(err, data) {

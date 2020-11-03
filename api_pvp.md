@@ -14,7 +14,7 @@ Returns the last 100 PVP kills on the requested server.
 #### Valid Servers
 Valid server names: `anarchy` `crystalpvp`
 
-#### NodeJS
+#### NodeJS / JavaScript
 ```javascript
 const server = "anarchy";
 v1.pvp(server, function(err, kills) {
